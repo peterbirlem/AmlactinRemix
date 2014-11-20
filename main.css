@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body{
+
+    background-color:transparent;padding:0;margin:0;font-size:16px;font-family:”Muli”,sans-serif}
+
+
+
+.col{display:inline-block;vertical-align:top}h1,h2,h3,p{margin:.5em 0}h1{font-size:2em;font-weight:200;margin-bottom:0;color:#72BC43}h2{margin-top:0;margin-bottom: 1.2em;font-size: 1.2em;font-weight:100;}h3{font-size:1em;font-weight:100;color:#d6d3d2}p,a{color:#fff}a{-webkit-transition:all .1s ease-out;-moz-transition:all .1s ease-out;-o-transition:all .1s ease-out;transition:all .1s ease-out}
+
+.wrapper{max-width:100%;position:relative;margin:0 auto}
+
+.wrapper header{position:relative;width:100%;float:left}
+
+.wrapper header .col{float:left;position:relative}
+
+.wrapper header .inner{background-color:#fff}
+
+.wrapper header .logo{
+    max-height: none;
+    max-width:378px;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;padding-left:2em}
+
+.wrapper header .logo img{display:block;height:auto;margin:2em auto}
+
+.wrapper header .headline{width:55%;padding:2em .5em .5em .5em}
+
+.wrapper header .headline h1{margin:0}@media screen and (max-width:1024px){.wrapper header{height:auto}
+
+    .wrapper header .logo{width:100%;height:auto;padding:0}
+
+    .wrapper header .headline{display:block;width:auto;text-align:center;padding:0px}
+
+    .wrapper header img.watch{height:200px}}@media screen and (max-width:610px){.wrapper header img.watch{display:none}}
+
+.wrapper #hub-wrap{position: relative;width:75%;height:52em}@media screen and (max-width:1024px){.wrapper #hub-wrap{width:100%}}
+
+.wrapper aside{width: 25%;float:right}
+
+.wrapper aside img{width:100%;max-width:385px}
+
+.wrapper aside .cta{padding:2em;background-color:#ffffff;color:#d6d3d2;text-align:center}
+
+.wrapper aside .cta h3{font-size:2.4em}
+
+.wrapper aside .cta h3 img{width:86px;height:17px}
+
+.wrapper aside .cta .share-wrap{list-style:none;margin:0;padding:0}
+
+.wrapper aside .cta .share-wrap li{font-family:'FontAwesome';display:inline-block;margin:0 .5em}
+
+.wrapper aside .cta .share-wrap li a{color:#d6d3d2;font-size:3em}
+
+.wrapper aside .cta .share-wrap li a:hover{color:#fff}@media screen and (max-width:1024px){.wrapper aside{display:block;width:100%;max-width:none;margin:0}
+
+    .wrapper aside img.sidebar-img{display:none}
+
+    .wrapper aside .cta .share-wrap li{margin:0 1em}
+
+    .wrapper aside .cta .share-wrap li a{font-size:4em}}
+
+.wrapper footer{position:relative;padding:2em;background-color:#72BC43;margin-top:4em}
+
+.wrapper footer #ti-logo{position:absolute;left:2em;top:2em;width:100px;margin-right:2em}
+
+.wrapper footer #ti-logo img{width:100%}
+
+.wrapper footer p{text-align:right;font-size:.75em}@media screen and (max-width:1024px){.wrapper footer{margin:0}}

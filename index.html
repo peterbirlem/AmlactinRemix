@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>AmLactin</title>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <!--<link href="https://platform-remix-development.s3.amazonaws.com/uploads/tap_assets/client/amlactin/main.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="main.css">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <div class="inner col">
+            <div class="inner col">
+                <div class="col logo"><img src="https://platform-remix-production.s3.amazonaws.com/uploads/tap_assets/client/amlactin/logo.png" alt="AmLactin" /></div>
+                <div class="col headline">
+                    <h1>Be inspired to go below the surface</h1>
+                    <h2>See what our bloggers have to say about their beauty routines and enter for a chance to win a free bottle of AmLactin!</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="hub-wrap" class="col">
+        <script
+                id="ti-hubpage-loader"
+                src="https://hub.tapinfluence.com/assets/hub/hub_loader.js"
+                data-uuid="amlactin-assignment"
+                async="true"
+                ></script>
+    </section>
+    <aside class="col">
+        <img class="sidebar-img" src="https://platform-remix-production.s3.amazonaws.com/uploads/tap_assets/client/amlactin/sidebar2.png" alt="AmLactin" />
+    </aside>
+    <footer>
+        <a id="ti-logo" href="http://tapinfluence.com" target="_blank" title="Visit TapInfluence.com"><img class="ti-logo" src="https://platform-remix-production.s3.amazonaws.com/uploads/tap_assets/client/amlactin/powered_by_white_logo.png" alt="Powered by Tapinfluence" /></a>
+        <p><a href="http://www.amlactin.com" target="_blank" title="AmLactin.com">AmLactin.com</a></p>
+    </footer>
+
+    <span id="tracker"></span>
+    <script>
+        var tapinfluencePixel = 'https://tracking.tapinfluence.com/trk/wqIAD/uyKQa/p.png?s=' + encodeURIComponent(document.referrer);
+
+        var tiPixel = '<img src="' + tapinfluencePixel + '" border=0 width=0 height=0 alt="TapInfluence Widget" />';
+
+        document.getElementById("tracker").innerHTML = tiPixel;
+    </script>
+
+</body>
+</html>
